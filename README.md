@@ -44,7 +44,12 @@ Web SG: Allows port 80 from anywhere
 RDS SG: Allows port 3306 only from the Web SG
 
 
+
+
+
+
 Files Included
+
 provider.tf — AWS provider and Terraform settings.
 
 variables.tf — Input variables (region, instance names, DB settings).
