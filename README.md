@@ -42,3 +42,17 @@ Accessible only from the EC2 instances (via security group rules)
 Web SG: Allows port 80 from anywhere
 
 RDS SG: Allows port 3306 only from the Web SG
+
+
+Files Included
+provider.tf — AWS provider and Terraform settings.
+
+variables.tf — Input variables (region, instance names, DB settings).
+
+network.tf — VPC, subnets, Internet Gateway, and public route table.
+
+security.tf — Security groups for web servers and RDS.
+
+compute_and_rds.tf — EC2 instances, AMI lookup, RDS subnet group, and RDS instance.
+
+outputs.tf — Public IPs for EC2 instances and RDS endpoint.
